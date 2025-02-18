@@ -1,84 +1,109 @@
-# Turborepo starter
+# LifeSync - Your All-in-One Personal Management Platform
 
-This Turborepo starter is maintained by the Turborepo core team.
 
-## Using this example
+LifeSync is a comprehensive personal management platform that helps you track todos, habits, prayers, workouts, notes, and expenses all in one place. Built with a modern tech stack and optimized for both web and mobile experiences.
 
-Run the following command:
+## 🌟 Features
 
-```sh
-npx create-turbo@latest
-```
+### ⚡ Core Features
 
-## What's inside?
+- **Todo Management**
+  - Hierarchical todos with sub-tasks
+  - Project organization
+  - Priority levels and due dates
+  - Status tracking
 
-This Turborepo includes the following packages/apps:
+- **Habit Tracking**
+  - Daily/weekly habit monitoring
+  - Streak calculation
+  - Progress visualization
+  - Success analytics
+    
+- **Workout Logger**
+  - Custom workout templates
+  - Performance tracking
+  - Session history
+  - Progress metrics
 
-### Apps and Packages
+- **Quick Notes**
+  - Rich text editor
+  - Tags and categories
+  - Search functionality
+  - Pin important notes
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- **Expense Tracker**
+  - Category-based organization
+  - Budget monitoring
+  - Payment method tracking
+  - Financial insights
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+### 🛠️ Technical Features
+- Offline support
+- Push notifications
+- Dark mode
+- Customizable dashboard
+- Data export/import
+- Calendar integration
+- Analytics dashboard
+- Mobile responsiveness
 
-### Utilities
+## 🔧 Tech Stack
 
-This Turborepo has some additional tools already setup for you:
+### Frontend
+- Next.js (Web)
+- React Native (Mobile)
+- TailwindCSS
+- Shadcn UI
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+### Backend
+- NestJS
+- PostgreSQL
+- Redis (Caching)
+- JWT Authentication
 
-### Build
+## 🗄️ Database Schema
 
-To build all apps and packages, run the following command:
+Key entities and relationships:
+- Users
+- Projects
+- Todos & SubTodos
+- Habits & HabitLogs
+- Workouts & WorkoutLogs
+- Notes
+- Expenses
 
-```
-cd my-turborepo
-pnpm build
-```
+## 🔒 Security Features
 
-### Develop
+- Two-factor authentication
+- End-to-end encryption
+- Rate limiting
+- Input validation
+- XSS protection
+- CSRF protection
 
-To develop all apps and packages, run the following command:
+## 📱 Mobile App Features
 
-```
-cd my-turborepo
-pnpm dev
-```
+- Offline-first architecture
+- Push notifications
+- Biometric authentication
+- Widget support
+- Deep linking
 
-### Remote Caching
+## 🤝 Contributing
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+## 📄 License
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+This project is licensed under the MIT License
 
-```
-cd my-turborepo
-npx turbo login
-```
+## 👥 Authors
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+- Muhammed Hisham A - [coderhisham](https://github.com/coderhisham)
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+## 🙏 Acknowledgments
+- Inspiration
