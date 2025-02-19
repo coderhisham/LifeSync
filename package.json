@@ -1,5 +1,5 @@
 {
-  "name": "LifeSync",
+  "name": "life-sync",
   "private": true,
   "scripts": {
     "build": "turbo run build",
